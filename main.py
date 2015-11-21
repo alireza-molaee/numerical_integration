@@ -13,7 +13,7 @@ the out put is integral of equation or data of table.
 # using Tkinter and numpy library
 from Tkinter import *
 import tkMessageBox
-from tkFileDialog   import askopenfilename
+from tkFileDialog import askopenfilename
 from calculating import IntegralNumerical
 
 
