@@ -15,7 +15,7 @@ methods we used in this program are:
  
 ###How get inputs
 you can set the input for calculate through 2 way:
-    1. chose a file
-    2. define an equation
+ 1. chose a file
+ 2. define an equation
 
 
