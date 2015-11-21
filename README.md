@@ -9,11 +9,11 @@ Usage
 -----------
 We wish to calculate the integral of a function 'f(x)' from 'x=a' to 'x=b' by numerical methods.
 methods we used in this program are:
- *Left-hand rectangular
- *Right-hand rectangular
- *Trapezoidal
- *Midpoint
- *Simpson’s
+ * Left-hand rectangular
+ * Right-hand rectangular
+ * Trapezoidal
+ * Midpoint
+ * Simpson’s
  
 How get inputs
 --------------
