@@ -1,3 +1,6 @@
+from math import *
+
+
 class IntegralNumerical(object):
 
     data = []
@@ -14,14 +17,14 @@ class IntegralNumerical(object):
             self.data = self.get_eq_data()
 
     def get_file_data(self):
-        the_file = open(self.path, 'r')
-        domain = []
-        fx = []
-        for line in the_file:
-            x_y = str(line).split(',')
-            domain.append(float(x_y[0]))
-            fx.append(float(x_y[1][0:-2]))
-        return zip(domain, fx)
+            the_file = open(self.path, 'r')
+            domain = []
+            fx = []
+            for line in the_file:
+                x_y = str(line).split(',')
+                domain.append(float(x_y[0]))
+                fx.append(float(x_y[1][0:-2]))
+            return zip(domain, fx)
 
     def get_eq_data(self):
         if (self.equation and self.a and self.b and self.delta)is not None:
